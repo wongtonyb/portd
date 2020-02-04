@@ -33,7 +33,7 @@ app.use(function(err, req, res, next) {
 });
 
 //start server
-const port = process.env.PORT || 3000; // this can be very useful if you deploy to Heroku!
+const port = process.env.PORT || 4000; // this can be very useful if you deploy to Heroku!
 app.listen(port, () => {
   console.log(`Your server, listening on port ${port}`);
 });

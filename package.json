@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "start-dev": "webpack -w & npm run start-server",
-    "start-server": "nodemon server"
+    "start-dev": "npm run watch & npm run nodemon",
+    "watch": "webpack -w",
+    "nodemon": "nodemon server"
   },
   "author": "",
   "license": "ISC",
@@ -24,7 +25,6 @@
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.4.2",
-    "nodemon": "^2.0.2",
     "style-loader": "^1.1.3",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
