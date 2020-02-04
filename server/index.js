@@ -9,7 +9,7 @@ const app = express();
 const morgan = require("morgan");
 app.use(morgan("dev"));
 
-// static file-serving middleware (files to serve up to browser such as bundle.js)
+// static file-serving middleware (files to serve up to browser such as bundle.js, css styles, images)
 app.use(express.static(path.join(__dirname, "..", "public")));
 
 //body parsing middleware (to use req.body)
@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //access api routes
-// app.use("/api", require("./api"));
+app.use("/api", require("./api"));
 
 //access index.html (after api)
 app.get("*", function(req, res) {

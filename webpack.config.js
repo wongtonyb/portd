@@ -3,7 +3,7 @@ module.exports = {
   mode: "development",
   output: {
     path: __dirname, // assumes your bundle.js will also be in the root of your project folder
-    filename: "bundle.js"
+    filename: "./public/bundle.js"
   },
   devtool: "source-maps",
   module: {
@@ -14,6 +14,11 @@ module.exports = {
         use: {
           loader: "babel-loader"
         }
+      },
+      //use style-loader/css-loader combo for anything matchng the .css extension
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"]
       }
     ]
   }
