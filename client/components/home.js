@@ -1,13 +1,19 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Home extends Component {
   componentDidMount() {
-    console.log("hit");
+    console.log('hit');
   }
   render() {
     return (
-      <div className="body" id="home">
-        <p>TONY WONg</p>
+      <div className="comp" id="home">
+        <div id="home-border-1" />
+        <div id="entry">I AM A </div>
+        <div id="hero">FULLSTACK ENGINEER</div>
+        <div id="sidekick">
+          who enjoys blending creativity into design and problem solving
+        </div>
+        <div id="home-border-2" />
       </div>
     );
   }

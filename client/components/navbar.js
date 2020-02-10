@@ -1,19 +1,19 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Navbar extends Component {
   render() {
     return (
       <div id="nav">
-        <div id="logo">TONY WONG</div>
+        <p id="logo">TONY WONG</p>
         <div id="pagenav">
-          <a>HOME</a>
-          <a>ABOUT</a>
-          <a>WORKS</a>
-          <a>CONTACT</a>
+          <a className="navlinks">HOME</a>
+          <a className="navlinks">ABOUT</a>
+          <a className="navlinks">WORKS</a>
+          <a className="navlinks">CONTACT</a>
         </div>
         <div id="iconnav">
-          <a>LinkedIn</a>
-          <a>gitHub</a>
+          <a className="iconlinks">LinkedIn</a>
+          <a className="iconlinks">gitHub</a>
         </div>
       </div>
     );
