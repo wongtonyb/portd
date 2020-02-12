@@ -8,10 +8,12 @@ class Navbar extends Component {
         <div id="navbar-links">
           {/* middle links */}
           <div id="pagenav">
-            <a href="#" className="navlinks">
+            <a href="#nav" className="navlinks">
               HOME
             </a>
-            <a className="navlinks">ABOUT</a>
+            <a href="#about" className="navlinks">
+              ABOUT
+            </a>
             <a className="navlinks">BIO</a>
             <a className="navlinks">WORKS</a>
             <a className="navlinks">CONTACT</a>
