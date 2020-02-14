@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import reactlogo from "./assets/react.png";
 
 class About extends Component {
   render() {
@@ -25,7 +26,7 @@ class About extends Component {
             <div className="tech-title">Front End</div>
             <div className="tech-icon-container">
               <img
-                src="/assets/tech/react.png"
+                src={reactlogo}
                 alt="react/react-native"
                 className="tech-icon"
               />
