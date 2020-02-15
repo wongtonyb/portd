@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import reactlogo from "./assets/react.png";
+import Technologies from "./technologies";
 
 class About extends Component {
   render() {
@@ -20,19 +20,7 @@ class About extends Component {
             passion for software engineering also continues to grow.
           </p>
         </div>
-        <div id="technologies">
-          <h2>Technologies I've worked with</h2>
-          <div id="tech-container">
-            <div className="tech-title">Front End</div>
-            <div className="tech-icon-container">
-              <img
-                src={reactlogo}
-                alt="react/react-native"
-                className="tech-icon"
-              />
-            </div>
-          </div>
-        </div>
+        <Technologies />
         <div id="hobbies">Hobbies</div>
       </div>
     );
