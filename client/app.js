@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Navbar, Home, About } from "./components";
+import { Navbar, Home, About, Works } from "./components";
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <Navbar />
       <Home />
       <About />
+      <Works />
     </Router>
   );
 };
