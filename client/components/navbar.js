@@ -14,14 +14,40 @@ class Navbar extends Component {
             <a href="#about" className="navlinks">
               ABOUT
             </a>
-            <a className="navlinks">BIO</a>
-            <a className="navlinks">WORKS</a>
+            <a href="#works" className="navlinks">
+              WORKS
+            </a>
+            <a href="#resume" className="navlinks">
+              RESUME
+            </a>
             <a className="navlinks">CONTACT</a>
           </div>
           {/* icon links */}
           <div id="iconnav">
-            <a className="iconlinks">LinkedIn</a>
-            <a className="iconlinks">gitHub</a>
+            <a
+              href="https://www.linkedin.com/in/wongtonyb/"
+              className="iconlinks"
+            >
+              <img
+                src="./assets/nav/linkedin.png"
+                alt="linkedin"
+                className="nav-icon"
+              />
+            </a>
+            <a href="https://github.com/wongtonyb" className="iconlinks">
+              <img
+                src="./assets/nav/github.png"
+                alt="linkedin"
+                className="nav-icon"
+              />
+            </a>
+            <a href="mailto:wongtonyb@gmail.com" className="iconlinks">
+              <img
+                src="./assets/nav/email.png"
+                alt="linkedin"
+                className="nav-icon"
+              />
+            </a>
           </div>
         </div>
         {/* hamburger link */}

@@ -4,7 +4,7 @@ class Technologies extends Component {
   render() {
     return (
       <div id="technologies">
-        <h2>Technologies I've worked with</h2>
+        <div className="title">TCHNOLOGIES I'VE WORKED WITH</div>
         <div id="both-tech-container">
           <div id="left-tech-container">
             <div className="tech-container">
@@ -189,6 +189,14 @@ class Technologies extends Component {
                     className="tech-icon"
                   />
                   <span className="tooltiptext">Heroku</span>
+                </div>
+                <div className="tooltip">
+                  <img
+                    src="./assets/amplify.png"
+                    alt="Amplify"
+                    className="tech-icon"
+                  />
+                  <span className="tooltiptext">AWS Amplify</span>
                 </div>
                 <div className="tooltip">
                   <img

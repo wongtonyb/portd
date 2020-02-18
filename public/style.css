@@ -44,29 +44,39 @@ body {
   padding: 10px 2px;
   margin: 12px;
   text-decoration: none;
+  color: black;
 }
 
 .navlinks:hover {
+  transition-timing-function: ease-in;
+  transition: 0.25s;
   color: gold;
   border-bottom: 2px solid gold;
   cursor: pointer;
 }
 
 .navlinks:visited {
-  color: black;
+  text-decoration: none;
 }
 
 /* #iconnav {
   padding-right: 6%;
 } */
 
+.nav-icon {
+  height: 20px;
+  width: 20px;
+}
+
 .iconlinks {
   padding: 0 10px;
 }
 
-.iconlinks:hover {
-  opacity: 50%;
+.nav-icon:hover {
   cursor: pointer;
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+  transform: scale(1.5);
 }
 
 .toggle-button {
@@ -136,6 +146,11 @@ body {
 
 /* home */
 
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+
 #home {
   display: flex;
   justify-content: center;
@@ -199,7 +214,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px;
+  padding-top: 130px;
 }
 
 #about h1 {
@@ -223,7 +238,7 @@ body {
 #bio {
   font-size: 1.5rem;
   text-align: justify;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .bio-icon {
@@ -252,7 +267,7 @@ body {
 
 #technologies {
   width: 900px;
-  margin-top: 100px;
+  padding-top: 130px;
 }
 
 #both-tech-container {
@@ -354,11 +369,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px;
-}
-
-#works h2 {
-  text-align: center;
+  padding-top: 130px;
 }
 
 #project-list {
@@ -435,11 +446,41 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: 350px;
+  height: 100px;
   position: relative;
   top: -50px;
-  height: 100px;
 }
 
 .tech-stack-icons {
   align-self: center;
+}
+
+/* resume */
+#resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 130px;
+  height: 200px;
+}
+
+.resume-btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  height: 600px;
+}
+
+.resume-btn {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid #333333;
+  border-radius: 50px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-top: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
 }

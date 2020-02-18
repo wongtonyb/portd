@@ -6,7 +6,8 @@ class About extends Component {
     return (
       <div id="about">
         {/* <h1>ABOUT ME</h1> */}
-        <div id="hi-my-name">HI, MY NAME IS TONY</div>
+        {/* <div id="hi-my-name">HI, MY NAME IS TONY</div> */}
+        <div className="title">HI, MY NAME IS TONY</div>
         <div id="about-intro">
           <div id="bio-container">
             <div id="left-bio-icons">
