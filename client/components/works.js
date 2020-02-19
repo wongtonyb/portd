@@ -4,7 +4,7 @@ class Works extends Component {
   render() {
     return (
       <div id="works">
-        <div className="title">PROJECTS I'VE WORKED ON</div>
+        <div className="title">SOME OF MY WORKS</div>
         <div id="project-list">
           <div className="project-container">
             <img
@@ -54,12 +54,14 @@ class Works extends Component {
                 className="tech-stack-icons"
               />
             </div>
-            <a
-              href="https://github.com/fullstack-yogis/postAR"
-              className="source-code"
-            >
-              Source Code
-            </a>
+            <div className="project-buttons">
+              <a
+                href="https://github.com/fullstack-yogis/postAR"
+                className="source-code"
+              >
+                Source Code
+              </a>
+            </div>
           </div>
           <div className="project-container">
             <img
@@ -115,12 +117,14 @@ class Works extends Component {
               />
             </div>
             <br />
-            <a
-              href="https://github.com/One-Team-One-Dream-OTOD/Grace-Shopper"
-              className="source-code"
-            >
-              Source Code
-            </a>
+            <div className="project-buttons">
+              <a
+                href="https://github.com/One-Team-One-Dream-OTOD/Grace-Shopper"
+                className="source-code"
+              >
+                Source Code
+              </a>
+            </div>
           </div>
           <div className="project-container">
             <img

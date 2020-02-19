@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Technologies from "./technologies";
+import Resume from "./resume";
 
 class About extends Component {
   render() {
@@ -76,6 +77,7 @@ class About extends Component {
             </div>
           </div>
         </div>
+        <Resume />
         <Technologies />
       </div>
     );

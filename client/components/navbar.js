@@ -14,13 +14,15 @@ class Navbar extends Component {
             <a href="#about" className="navlinks">
               ABOUT
             </a>
+            <a href="#technologies" className="navlinks">
+              TECH
+            </a>
             <a href="#works" className="navlinks">
               WORKS
             </a>
-            <a href="#resume" className="navlinks">
-              RESUME
+            <a href="#footer" className="navlinks">
+              CONTACT
             </a>
-            <a className="navlinks">CONTACT</a>
           </div>
           {/* icon links */}
           <div id="iconnav">

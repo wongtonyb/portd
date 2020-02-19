@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Navbar, Home, About, Works, Resume, Footer } from "./components";
+import { Navbar, Home, About, Works, Footer } from "./components";
 
 const App = () => {
   return (
@@ -9,7 +9,6 @@ const App = () => {
       <Home />
       <About />
       <Works />
-      {/* <Resume /> */}
       <Footer />
     </Router>
   );
