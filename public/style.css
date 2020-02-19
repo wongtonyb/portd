@@ -505,3 +505,75 @@ footer h5 {
   padding: 20px;
   /* border-top: 1px solid black; */
 }
+
+@media (max-width: 800px) {
+  #hero {
+    font-size: 50px;
+  }
+
+  #about {
+    padding-top: 40px;
+  }
+
+  .title {
+    font-size: 35px;
+    overflow-wrap: break-word;
+  }
+
+  #bio-container {
+    width: 350px;
+  }
+
+  #left-bio-icons {
+    display: none;
+  }
+
+  #right-bio-icons {
+    display: none;
+  }
+
+  #bio {
+    font-size: 15px;
+  }
+
+  #resume {
+    padding: 20px 0px;
+  }
+
+  #technologies {
+    padding-top: 40px;
+    width: 375px;
+  }
+
+  #both-tech-container {
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  .tech-container {
+    width: 365px;
+  }
+
+  #works {
+    padding-top: 40px;
+  }
+
+  #project-list {
+    width: 375px;
+  }
+  .project-container {
+    width: 365px;
+    margin: 3rem 0rem;
+  }
+
+  .project-bio {
+    width: 325px;
+  }
+
+  .tech-stack {
+    width: 325px;
+  }
+
+  .tech-stack-icons {
+  }
+}
