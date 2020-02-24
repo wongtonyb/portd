@@ -4,7 +4,7 @@ class Navbar extends Component {
   render() {
     return (
       <div id="nav">
-        <p id="logo">TONY WONG</p>
+        <div id="logo">TONY WONG</div>
         <div id="navbar-links">
           {/* middle links */}
           <div id="pagenav">
@@ -53,7 +53,7 @@ class Navbar extends Component {
           </div>
         </div>
         {/* hamburger link */}
-        <a href="#" className="toggle-button">
+        <a className="toggle-button">
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>

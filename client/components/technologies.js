@@ -12,7 +12,7 @@ class Technologies extends Component {
               <div className="tech-icon-container">
                 <div className="tooltip">
                   <img
-                    src="./assets/js.png"
+                    src="./assets/tech/js.png"
                     alt="JavaScript"
                     className="tech-icon"
                   />
@@ -20,7 +20,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/html5.png"
+                    src="./assets/tech/html5.png"
                     alt="HTML"
                     className="tech-icon"
                   />
@@ -28,7 +28,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/css3.png"
+                    src="./assets/tech/css3.png"
                     alt="CSS"
                     className="tech-icon"
                   />
@@ -36,7 +36,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/react.png"
+                    src="./assets/tech/react.png"
                     alt="React / React Native"
                     className="tech-icon"
                   />
@@ -44,7 +44,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/redux.png"
+                    src="./assets/tech/redux.png"
                     alt="Redux"
                     className="tech-icon"
                   />
@@ -52,7 +52,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/viro.png"
+                    src="./assets/tech/viro.png"
                     alt="Viro"
                     className="tech-icon"
                   />
@@ -60,7 +60,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/expo.png"
+                    src="./assets/tech/expo.png"
                     alt="Expo"
                     className="tech-icon"
                   />
@@ -73,7 +73,7 @@ class Technologies extends Component {
               <div className="tech-icon-container">
                 <div className="tooltip">
                   <img
-                    src="./assets/nodejs.png"
+                    src="./assets/tech/nodejs.png"
                     alt="NodeJS"
                     className="tech-icon"
                   />
@@ -81,7 +81,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/apollo.png"
+                    src="./assets/tech/apollo.png"
                     alt="Apollo"
                     className="tech-icon"
                   />
@@ -89,7 +89,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/express.png"
+                    src="./assets/tech/express.png"
                     alt="Express"
                     id="express-icon"
                   />
@@ -97,7 +97,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/graphql.png"
+                    src="./assets/tech/graphql.png"
                     alt="GraphQL"
                     className="tech-icon"
                   />
@@ -105,7 +105,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/sequelize.png"
+                    src="./assets/tech/sequelize.png"
                     alt="Sequelize"
                     className="tech-icon"
                   />
@@ -113,7 +113,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/postgres.png"
+                    src="./assets/tech/postgres.png"
                     alt="PostgreSQL"
                     className="tech-icon"
                   />
@@ -121,7 +121,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/prisma.png"
+                    src="./assets/tech/prisma.png"
                     alt="Prisma"
                     className="tech-icon"
                   />
@@ -129,7 +129,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/aurora.png"
+                    src="./assets/tech/aurora.png"
                     alt="Amazon Aurora (RDS)"
                     className="tech-icon"
                   />
@@ -137,7 +137,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/oauth.png"
+                    src="./assets/tech/oauth.png"
                     alt="OAuth"
                     className="tech-icon"
                   />
@@ -145,7 +145,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/passportjs.png"
+                    src="./assets/tech/passportjs.png"
                     alt="Passport.js"
                     className="tech-icon"
                   />
@@ -159,24 +159,32 @@ class Technologies extends Component {
               <div className="tech-title">DEVOPS</div>
               <div className="tech-icon-container">
                 <div className="tooltip">
-                  <img src="./assets/git.png" alt="Git" className="tech-icon" />
+                  <img
+                    src="./assets/tech/git.png"
+                    alt="Git"
+                    className="tech-icon"
+                  />
                   <span className="tooltiptext">Git</span>
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/github.png"
+                    src="./assets/tech/github.png"
                     alt="Github"
                     className="tech-icon"
                   />
                   <span className="tooltiptext">Github</span>
                 </div>
                 <div className="tooltip">
-                  <img src="./assets/npm.png" alt="npm" className="tech-icon" />
+                  <img
+                    src="./assets/tech/npm.png"
+                    alt="npm"
+                    className="tech-icon"
+                  />
                   <span className="tooltiptext">npm</span>
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/webpack.png"
+                    src="./assets/tech/webpack.png"
                     alt="Webpack"
                     className="tech-icon"
                   />
@@ -184,7 +192,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/heroku.png"
+                    src="./assets/tech/heroku.png"
                     alt="Heroku"
                     className="tech-icon"
                   />
@@ -192,7 +200,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/amplify.png"
+                    src="./assets/tech/amplify.png"
                     alt="Amplify"
                     className="tech-icon"
                   />
@@ -200,7 +208,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/travis.png"
+                    src="./assets/tech/travis.png"
                     alt="Travis CI"
                     className="tech-icon"
                   />
@@ -213,7 +221,7 @@ class Technologies extends Component {
               <div className="tech-icon-container">
                 <div className="tooltip">
                   <img
-                    src="./assets/vscode.png"
+                    src="./assets/tech/vscode.png"
                     alt="VSCode"
                     className="tech-icon"
                   />
@@ -221,7 +229,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/postico.png"
+                    src="./assets/tech/postico.png"
                     alt="Postico"
                     className="tech-icon"
                   />
@@ -229,7 +237,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/postman.png"
+                    src="./assets/tech/postman.png"
                     alt="Postman"
                     className="tech-icon"
                   />
@@ -242,7 +250,7 @@ class Technologies extends Component {
               <div className="tech-icon-container">
                 <div className="tooltip">
                   <img
-                    src="./assets/mocha.png"
+                    src="./assets/tech/mocha.png"
                     alt="Mocha"
                     className="tech-icon"
                   />
@@ -250,7 +258,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/chai.png"
+                    src="./assets/tech/chai.png"
                     alt="Chai"
                     className="tech-icon"
                   />
@@ -258,7 +266,7 @@ class Technologies extends Component {
                 </div>
                 <div className="tooltip">
                   <img
-                    src="./assets/jasmine.png"
+                    src="./assets/tech/jasmine.png"
                     alt="Jasmine"
                     className="tech-icon"
                   />
